@@ -14,6 +14,7 @@ Iterator it = list.iterator();
 System.out.println("List elements : ");
         while (it.hasNext())  
             System.out.print(it.next() + " ");  
+		it.remove();
         System.out.println();  
     }  
 } 
