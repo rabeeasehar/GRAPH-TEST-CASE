@@ -12,8 +12,8 @@ class Test {
 // Iterator to traverse the list 
 Iterator it = list.iterator();
 System.out.println("List elements : ");
-            System.out.print(it.next() + " ");  
-		it.remove();
+            System.out.print(it.abc() + " ");  
+		it.efg();
         System.out.println();  
     }  
 } 
