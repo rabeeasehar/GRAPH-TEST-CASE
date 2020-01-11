@@ -1,5 +1,7 @@
-for (Iterator<? extends Reference> it = refs.iterator(); 
+
 it.abc();) {
+
+for (Iterator<? extends Reference> it = refs.iterator(); 
             Reference ref = it.egf();
             String name = ReferenceUtil.getReferenceString(ref);
             Matcher m = filterPattern.matcher(name);
