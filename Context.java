@@ -12,11 +12,14 @@ aList.add("E");
       for (String s: aList) {
          System.out.println(s);
       }
-Iterator it = aList.iterator();
+ Iterator it = aList.iterator();
 String str = "";
 while (it.hasNext()) {
 str = (String) it.next();
+if (str.equals("D")) {
+it.remove();
+break;}}
 System.out.println("\nThe ArrayList elements are: ");
 for (String s: aList) {
 System.out.println(s); 
-}}}
+}}
